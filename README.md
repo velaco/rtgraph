@@ -6,7 +6,7 @@ The nodes represent the author and the retweeters, whereas the directed edges re
 
 ## Requirements
 
-RtGraph was written and tested using R 3.4.1 (Single Candle).
+RtGraph was written and tested using R 3.4.1 (Single Candle). The script requires the following packages: twitteR and igraph.
 
 The consumer key, consumer secret, access token, and access secret for the Twitter API are required and need to be stored in the *auth.txt* file. Each string must be on a separate line and in the following order:
 1. Consumer key
